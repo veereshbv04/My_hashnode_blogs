@@ -1,2 +1,2 @@
 # My_hashnode_blogs
-A backup of to my Blogs on Hashnode
+A backup of my Blogs on Hashnode
