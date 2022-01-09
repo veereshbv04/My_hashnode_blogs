@@ -77,7 +77,7 @@ Event loops is very partial towards Microtask Queue. Even though there is 1 call
 
 **But, what kind of callbacks are pushed onto Microtask Queue ?**
 
-Only callbacks from promises and [Mutation Observers]("https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver") are sent into *Microtask Queue*.
+Only callbacks from promises and [Mutation Observers](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver) are sent into *Microtask Queue*.
 Mutation observer observers the DOM events and executes callback.
 This is one of the important feature in JS, we need to know.
 
