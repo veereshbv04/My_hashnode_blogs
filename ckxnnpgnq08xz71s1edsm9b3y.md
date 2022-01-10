@@ -61,7 +61,7 @@ The second and third statements, *setTimeout* and *fetch* are the webAPIs and bo
 
 As per the order in code snippet, the JS engine considers *setTimeout* and sets a timer for 5 seconds and after which the callback function is sent into callback queue.
 
-The third statement which is a fetch call, forms the part of webAPIs. We get a [**Promise**]("https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise")  after executing the fetch method, depending upon the state of the promise [**.then**]("https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then") handlers are executed.
+The third statement which is a fetch call, forms the part of webAPIs. We get a [**Promise**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)  after executing the fetch method, depending upon the state of the promise [**.then**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then) handlers are executed.
 For now, let us consider the Promise to be in fullfilled state. Now we need to take care of the callback function *fetchCallback*. This time JS engine won't push the callback function to callback queue. It push fetchCallback to **Microtask Queue**. The below figure, representing JavaScript runtime environment helps you to understand better.
 
 ![JavaScript Engine.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1640530689480/SFbOtXSxv.png)
